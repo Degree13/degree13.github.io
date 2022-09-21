@@ -1,6 +1,7 @@
 # degree13.github.io
 
-Groupe 13
+*S1C - Groupe 13*
+<p>
 Membres : 
 - Arthur Keusch
 - Mame Diarra Thiam
