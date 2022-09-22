@@ -1,5 +1,4 @@
 # degree13.github.io
-
 *S1C - Groupe 13*
 <p>
 Membres : 
