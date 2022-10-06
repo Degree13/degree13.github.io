@@ -8,3 +8,8 @@
     <li><p>Manon Grandmougin</p></li>
     <li><p>Noah Nicolas / Référant / noah.nicolas@edu.univ-fcomte.fr</p></li>
 </ul>
+<br>
+<p>Ecran de Zonning :</p>
+<img src="_Communs&Divers/ZoningPageAccueil.png">
+<br>
+<p>Ecran d'accueil : Prototype</p>
