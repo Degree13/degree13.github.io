@@ -13,3 +13,4 @@
 <img src="_Communs&Divers/ZoningPageAccueil.png">
 <br>
 <p>Ecran d'accueil : Prototype</p>
+<img scr="_Communs&Divers/imgPrototype.png">
