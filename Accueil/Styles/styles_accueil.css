@@ -90,8 +90,8 @@ a:hover>.souligne{
 
 .image_accueil{
     display:block;
-    height: fit-content;
-    width: fit-content;
+    height: 400px;
+    width: 600px;
     margin-top: 200px;
     margin-bottom: 200px;
     margin-left: 0;
