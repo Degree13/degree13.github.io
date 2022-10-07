@@ -5,6 +5,7 @@
 
 body{
     font-family: "3ds", Arial , sans-serif;
+    margin: 0;
 }
 
 .menu{
@@ -79,24 +80,6 @@ a:hover>.souligne{
     font-size: 25px;
 }
 
-.contenant_article{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    flex-direction:column;
-}
-
-.image_accueil{
-    display:block;
-    height: fit-content;
-    width: fit-content;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 0;
-    margin-right: 0;
-}
-
 h3{
     font-size: 50px;
     text-align: left;
@@ -144,6 +127,24 @@ figcaption {
     border-radius: 15px 15px 15px 15px;
     text-align: center;
     filter: drop-shadow(10px 10px 4px black);
+}
+
+.contenant_article{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction:column;
+}
+
+.image_accueil{
+    display:block;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .lire_suite{
