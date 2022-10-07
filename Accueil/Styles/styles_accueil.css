@@ -1,14 +1,11 @@
 @font-face{
     font-family: '3ds';
-    src: url('../Divers/3ds Regular.ttf');
+    src: url('3ds Condensed Regular.ttf');
 }
 
 body{
     font-family: "3ds", Arial , sans-serif;
-    margin-left: 0;
-    margin-right: 0;
 }
-
 .menu{
     color: #009eff;
     display: flex;
@@ -19,6 +16,8 @@ body{
     margin-right: 30px ;
     overflow: hidden;
     margin-left: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .item{
@@ -28,8 +27,8 @@ body{
 
 .logo{
     display: flex;
-    max-width: 80px;
-    max-height: 50px;
+    min-width: 80px;
+    min-height: 50px;
     padding: 0%;
     margin-left: 4px;
     border-radius: 25px 25px 25px 25px;
@@ -66,6 +65,7 @@ a:hover>.souligne{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: Arial;
     font-size: 130px;
     white-space: nowrap;
 }
@@ -76,25 +76,8 @@ a:hover>.souligne{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: Arial;
     font-size: 25px;
-}
-
-.contenant_article{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    flex-direction:column;
-}
-
-.image_accueil{
-    display:block;
-    width: fit-content;
-	height: fit-content;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 h3{
@@ -126,7 +109,7 @@ figcaption {
     float: left;
     margin: 0 30px 15px 0;
     width: 600px;
-    height: 400px;
+	height: 400px;
     display: flex;
     display: inline-block;
     border-radius: 15px 15px 15px 15px;
@@ -138,12 +121,42 @@ figcaption {
     float: right;
     margin: 0 0 15px 15px;
     width: 600px;
-    height: 400px;
+	height: 400px;
     display: flex;
     display: inline-block;
     border-radius: 15px 15px 15px 15px;
     text-align: center;
     filter: drop-shadow(10px 10px 4px black);
+}
+
+.contenant_article{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction:column;
+}
+
+.image_accueil{
+    display:block;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+footer{
+    background:#afe0ff;
+    width:100%;
+    height:auto;
+    text-align: center;
+    color: #7c7c7c;
+    bottom: 0;
+    margin-top: 50px;
+    margin-bottom: -15px;
+    padding: 2px;
 }
 
 .lire_suite{
@@ -161,18 +174,5 @@ figcaption {
     color: white;
     border-radius: 5px 5px 5px 5px;
 }
-
-footer{
-    background:#afe0ff;
-    width:100%;
-    height:auto;
-    text-align: center;
-    color: #7c7c7c;
-    bottom: 0;
-    margin-top: 50px;
-    margin-bottom: -15px;
-    padding: 2px;
-}
-
 
 
