@@ -10,6 +10,6 @@
 </ul>
 <br>
 <p>Ecran de Zonning :</p>
-<img src="_Communs&Divers/Zoning_page_acceuil.png">
+<img src="_Communs&Divers/Zoning_page_accueil.png">
 <br>
 <p>Ecran d'accueil : Prototype</p>
