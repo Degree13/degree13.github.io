@@ -114,7 +114,7 @@ figcaption {
     display: inline-block;
     border-radius: 15px 15px 15px 15px;
     text-align: center;
-    filter: drop-shadow(10px 10px 4px black);
+    filter: drop-shadow(0 0 0.75rem gray);
 }
 
 footer{
