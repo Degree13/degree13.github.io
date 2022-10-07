@@ -5,6 +5,8 @@
 
 body{
     font-family: "3ds", Arial , sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .menu{
     color: #009eff;
