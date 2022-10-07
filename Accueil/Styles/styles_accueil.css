@@ -112,7 +112,6 @@ p{
 figure {
     display: flex;
     flex-flow: column;
-    vertical-align: center;
 }
 
 figcaption {
