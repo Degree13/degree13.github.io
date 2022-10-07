@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <!-- CSS only -->
-    <link href="Accueil/Styles/styles_accueil.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
+    <link href="Accueil/Styles/styles_accueil.css" rel="stylesheet" type="text/css">
     <title>Accueil</title>
 </head>
 <body>
     <nav class="menu">
-        <img class="logo" src="Accueil/Divers/logo.png" alt="logo">
-        <a class="item" href="accueil.html">
+        <img class="logo" src="Accueil/Divers/logo.png" alt="logo" width="50px" height="50px">
+        <a class="item" href="acceuil.html">
             Accueil
             <div class="souligne"></div>
         </a>
@@ -17,8 +16,9 @@
             Histoire
             <div class="souligne"></div>
         </a>
+            
         <a class="item" href="../Finances/finances.html">
-            Finances
+            Finance
             <div class="souligne"></div>
         </a>
         <a class="item" href="../Produits/produits.html">
@@ -32,84 +32,95 @@
     </nav>
 
     <div class="contenant_premier_page">
-        <img class="image_article" src="Accueil/Divers/campus-dassault-systeme.jpg" alt="image en lien avec l'article"/>
+        <img class="image_article" src="Accueil/Divers/campus-dassault-systeme.jpg" alt="image en lien avec l'article" />
         <div class="titre_article">
             Dassault Systèmes
         </div>
         <div class="texte_article">
-            Ce site est un site de mise en valeur qui présente la société Dassault Systèmes dans le cadre d'un projet de
-            groupe au sein de l’Institut Universitaire de Technologie de Belfort Montbéliard. 
+            Besoin d'info sur Dassault ? <br>
+           <strong>C'est le site qu'il vous faut !</strong> 
         </div>
     </div>
 
-    <div class="contenant_article ">
-        <div class="image_accueil">
+    <ul class="grid">
+        <li>
             <figure>
-                    <img class="image_gauche" src="Accueil/Divers/histoire-dassault-systeme.jpg" alt="image en lien avec l'histoire de Dassault"/>
-                    <figcaption>
-                        Marcel Dassault, Charles Edelstenne et Francis Bernard, les fondateurs de Dassault Systèmes
-                    </figcaption>
-            </figure> 
-            <div class="text_droite">
-            <h3>Histoire </h3>
             <p>
-                Dassault Systèmes est une entreprise issue du groupe Dassault Aviation crée en 1981 qui développaient à l’origine des logiciels de modélisation en 3D. 
-                Son ambition était de créer des produits qui mêlent le réel et le virtuel. Son évolution est marquée par des collaborations avec divers collaborateurs 
-                tels que BMW, Mercedes ou encore Boeing. Aujourd’hui Dassault possède trois sites principaux dans le monde un en France, un aux États-Unis et un en 
-                Chine ce qui contribue à faire de Dassault Système une entreprise importante dans le CAC40.    
+                <img class="image" src="Accueil/Divers/histoire-dassault-systeme.jpg" alt="image en lien avec l'histoire de Dassault" />
+                <figcaption>
+                    Marcel Dassault, Charles Edelstenne et Francis Bernard, les fondateurs de Dassault Systemes
+                </figcaption>
             </p>
-            <a href="Histoire/histoire.html" class="lire_suite">En savoir plus</a>
+        </li>
+        <li>
+            <div class="text">
+                <h3>Histoire </h3>
+                <p>
+                    Dassault Système est une entreprise issue du groupe Dassault Aviation crée en 1981 qui développait à l’origine des logiciels de modélisation en 3D. Son ambition était de créée des produits qui mêlent le réel et le virtuel. Son évolution est marquée par des collaborations avec divers collaborateurs tels que BMW, Mercedes ou encore Boeing. Aujourd’hui Dassault possède trois sites principaux dans le monde un en France, un au Etats-Unis et un en Chine ce qui contribue à faire de Dassault Système une entreprise importante dans le CAC40.    
+                </p>
+                <a href="Histoire/histoire.html" class="lire_suite">En savoir plus</a>
             </div>
-        </div>
-        <div class="image_accueil">
-            <img class="image_droite" src="Accueil/Divers/produits-dassault-systeme.jpg" alt="image en lien avec le texte à gauche"/>
-            <div class="text_gauche">
-            <h3>Produits et Services </h3>
-            <p> 
-                De la conceptualisation à la réalisation de votre projet, Dassault Systèmes vous propose des solutions innovantes et une large gamme d'applications de 
-                simulations, de modélisation, d’analyse, de réseaux sociaux, ainsi que d’intelligence informationnelle.
-            </p>
-            <a href="Produits/produits.html" class="lire_suite">En savoir plus</a>
+        </li>
+
+        <li>
+            <div class="text">
+                <h3>Produits et Services </h3>
+                <p> 
+                    De la conceptualisation à la réalisation de votre projet, Dassault Systèmes vous propose des solutions innovantes et une large gamme d'applications de simulations, de modélisation, d’analyse, de réseaux sociaux, ainsi que d’intelligence informationnelle.
+                </p>
+                <a href="Produits/produits.html" class="lire_suite">En savoir plus</a>
             </div>
-        </div>
-        <div class="image_accueil">  
+
+        </li>
+        <li>
+            <img class="image" src="Accueil/Divers/produits-dassault-systeme.jpg" alt="image en lien avec le texte à gauche" />
+        </li>
+        
+
+        <li>
             <figure>
-                    <img class="image_gauche" src="Accueil/Divers/finance-dassault-systeme.jpg" alt="image en lien avec le texte à gauche"/>
+                <p>
+                    <img class="image_finance" src="Accueil/Divers/finance-dassault-systeme.jpg" alt="image en lien avec le texte à gauche" />
                     <figcaption>
                     Chiffre d'affaires de Dassault Systèmes en millions d'euros. 
                     Source : <a href="https://fr.wikipedia.org/wiki/Dassault_Syst%C3%A8mes">Wikipedia</a>
                     </figcaption>
-            </figure> 
-            <div class="text_droite">
-            <h3>Finance </h3>
-            <p>  
-                En 2021, Dassault Systèmes était la 14e entreprise la plus riche de France. Ce qui s’explique d’une part par la constante croissance de chiffre d’affaires 
-                depuis 2002. Son capital social s’élève à plus de 133 000 000 d’euros et est possédé à 40 % par la famille Dassault.
-            </p>
-            <a href="Finances/finances.html" class="lire_suite">En savoir plus</a>
+                </p>
+            </figure>  
+        </li>
+        <li>
+            <div class="text">
+                <h3>Finance </h3>
+                <p>  
+                    En 2021, Dassault Systèmes était la 14ème entreprise la plus riche de France. Ce qui s’explique d’une part par la constante croissance de chiffre d’affaires depuis 2002. Son capital social s’élève à plus de 133 000 000 d’euros et est posséder à 40% par la famille Dassault. 
+                    
+                </p>
+                <a href="Finances/finances.html" class="lire_suite">En savoir plus</a>
             </div>
-        </div>
-        <div class="image_accueil">
-            <img class="image_droite" src="Accueil/Divers/valeurs-dassault-systeme.jpg" alt="image en lien avec le texte à gauche"/>
-            <div class="text_gauche">
-            <h3>Valeurs </h3>
-            <p class="texte_gauche">
-                Soucieuse de celles-ci, l’entreprise met un point d’honneur à remplir ses objectifs vis-à-vis ces valeurs telles que : 
-                l’inclusion, la diversité, l’éthique, la conformité et le développement durable.
-            </p>
-            <a href="Valeurs/valeurs.html" class="lire_suite">En savoir plus</a>
-            </div>
-        </div>
-    </div>
+        </li>
 
-    <footer>
-        <img src="Accueil/Divers/logo_iut.svg" alt="logo IUTBM">
-        <p>
-            Page faite par Mame Diarra Thiam <br>
-            Ceci n'est pas un site officiel de Dassault Systemes <br>
-            Site de présentation de Dassault Systemes fait pour la SAE 05-06 de 2022 par le groupe 13 de la S1C1 constitué de : <br>
-            Arthur , Manon , Mame Diarra et Noah
-        </p>
-    </footer>
+        <li>
+            <div class="text">
+                <h3>Valeurs </h3>
+                <p>
+                    Dassault Systemes est une entreprise au valeurs nombreuses. Soucieuse de celles-ci, l’entreprise met un point d’honneur à remplir ces objectifs vis à vis ces valeurs tel que : l’inclusion , la diversité , l’éthique , la conformité et le développement durable .
+                </p>
+                <a href="Valeurs/valeurs.html" class="lire_suite">En savoir plus</a>
+            </div>
+        </li>
+        <li>
+            <img class="image" src="Accueil/Divers/valeurs-dassault-systeme.jpg" alt="image en lien avec le texte à gauche" />    
+        </li>
+       </ul>
+
+       <footer>
+            <p class="p_footer">
+                Page faite par Mame Diarra Thiam <br>
+                Ceci n'est pas un site officiel de Dassault Systemes <br>
+                Site de présentation de Dassault Systemes fait pour la SAE 05-06 de 2022 par le groupe 13 de la S1C1 constitué de : <br>
+                Arthur , Manon , Mame Diarra et Noah
+            </p>
+       </footer>
+
 </body>
 </html>
