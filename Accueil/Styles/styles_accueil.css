@@ -126,7 +126,7 @@ figcaption {
     float: left;
     margin: 0 30px 15px 0;
     width: 600px;
-	height: 400px;
+    height: 400px;
     display: flex;
     display: inline-block;
     border-radius: 15px 15px 15px 15px;
@@ -174,7 +174,13 @@ footer{
     padding: 2px;
 }
 
+.text_droite{
+    float: right;
+}
 
+.texte_gauche{
+    float: left;
+}
 
 
 
