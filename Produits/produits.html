@@ -4,17 +4,55 @@
         <meta charset="utf-8" />
         <title>Page Index - Page HTML</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <link rel="stylesheet" href="Valeurs/style_produits.css" />
+        <link rel="stylesheet" href="Styles/styles_produits.css" />
     </head>
     <body>
-        <h2>Ceci est la page "Produits" de notre projet</h2>
-        <p>Liens des différentes pages :</p>
-        <ul>
-            <li><a href="../index.html">Page Index / Accueil</a></li>
-            <li><a href="../Finances/finances.html">Pages Finances</a></li>
-            <li><a href="../Produits/produits.html">Pages Produits</a></li>
-            <li><a href="../Histoire/histoire.html">Histoire de Dassault Systèmes</a></li>
-            <li><a href="../Valeurs/valeurs.html">Les Valeurs de Dassault Systèmes</a></li>
-        </ul>
-    </body>
+        <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="Accueil/Styles/styles_accueil.css" rel="stylesheet" type="text/css">
+    <title>Accueil</title>
+</head>
+<body>
+    <nav class="menu">
+        <img class="logo" src="logo.png" alt="logo" width="50px" height="50px">
+        <a class="item" href="accueil.html">
+            Accueil
+            <div class="souligne"></div>
+        </a>
+        <a class="item" href="../Histoire/histoire.html">
+            Histoire
+            <div class="souligne"></div>
+        </a>
+            
+        <a class="item" href="../Finances/finances.html">
+            Finance
+            <div class="souligne"></div>
+        </a>
+        <a class="item" href="../Produits/produits.html">
+            Produits
+            <div class="souligne"></div>
+        </a>
+        <a class="item" href="../Valeurs/valeurs.html">
+            Valeurs
+            <div class="souligne"></div>
+        </a>
+    </nav>
+
+    <div class="container">
+        <div class="parallax"></div>
+        <div class="titre-article"><h1>Les Produits</h1></div>
+    </div>
+    <div class="grid">
+        <h2>NEOVIA</h2>
+        <img class="images" src="images/Delmia.jpg">
+        <h2>NEOVIA</h2>
+        <img class="images" src="images/Delmia.jpg">
+        <h2>NEOVIA</h2>
+        <img class="images" src="images/Delmia.jpg">
+        <h2>NEOVIA</h2>
+        <img class="images" src="images/Delmia.jpg">
+    </div>
+</body>
 </html>

@@ -1,10 +1,106 @@
-html{
-    font-family: "Verdana", Arial, sans-serif;
+@font-face{
+    font-family: '3ds';
+    src: url('3ds Regular.ttf');
 }
 
-img {
-box-shadow: 10px 10px 8px #888888;
+body{
+    font-family: "3ds", Arial , sans-serif;
+    margin: 0;
 }
+
+
+.menu{
+    color: #009eff;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 2px;
+    font-size: 30px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.item{
+    text-decoration: none;
+    color: #009eff;
+    margin-top:5px;
+}
+
+.logo{
+    display: flex;
+    min-width: 80px;
+    min-height: 50px;
+    padding: 0%;
+    margin-left: 4px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.souligne{
+    height: 3px;
+    background-color: #009eff;
+    width: 0;
+    transition: 1s;
+}
+
+a:hover>.souligne{
+    width: 100%;
+}
+
+.frontimg{
+    object-fit: cover;
+    width:100%;
+    max-height: 645px;
+}
+
+.parallax{
+    /* The image used */
+    background-image: url("../images/turbineWallpaper.jpg");
+  
+    /* Set a specific height */
+    min-height: 645px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.titre-article{
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    white-space: nowrap;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px darkgray, 4px 4px 8px rgb(255, 255, 255);
+}
+
+.container{
+    display:block;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 70% 30%;
+    margin:30px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 25px;
+    row-gap: 30px;
+}
+
+.images{
+    max-width: 100%;
+    border-radius: 25px;    
+}
+
+.espace{
+    margin-top:30px;
+}
+
+
 
 
 
