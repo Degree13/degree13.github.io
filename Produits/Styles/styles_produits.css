@@ -46,18 +46,12 @@ a:hover>.souligne{
     width: 100%;
 }
 
-.frontimg{
-    object-fit: cover;
-    width:100%;
-    max-height: 645px;
-}
-
 .parallax{
     /* The image used */
     background-image: url("../images/turbineWallpaper.jpg");
   
     /* Set a specific height */
-    min-height: 645px;
+    min-height: 91vh;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -69,13 +63,13 @@ a:hover>.souligne{
 .titre-article{
     position: absolute;
     color: white;
-    font-size: 75px;
+    font-size: 80px;
     white-space: nowrap;
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px darkgray, 4px 4px 8px rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
 }
 
 .container{
@@ -122,6 +116,23 @@ a:hover>.souligne{
 
 .espace{
     margin-top:30px;
+}
+
+.text-top{
+    font-size:15px;
+    text-align:center;
+    text-justify: auto;
+    margin-left:250px;
+    margin-right:250px;
+    color: rgb(166, 165, 165);
+}
+
+.text-articles{
+    font-size:20px;
+    color:rgb(166, 165, 165);
+    text-justify: auto;
+    margin-right:30px;
+    margin-left:30px;
 }
 
 
