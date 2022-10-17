@@ -91,6 +91,30 @@ a:hover>.souligne{
     row-gap: 30px;
 }
 
+.grid2{
+    display:grid;
+    grid-template-columns: 30% 70%;
+    margin:30px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 25px;
+    row-gap: 30px;
+}
+
+.item{
+    margin-right:30px;
+    margin-left:30px;
+    color:black;
+    text-justify: auto;
+}
+
+.item2{
+    text-align: right;
+    margin-right:30px;
+    margin-left:30px;
+    color:black;
+    text-justify: auto;
+}
+
 .images{
     max-width: 100%;
     border-radius: 25px;    
