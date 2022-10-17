@@ -5,10 +5,11 @@
 
 body{
     font-family: "3ds", Arial, sans-serif;
+    margin : 0;
 }
 
 .menu{
-    color: #009eff;
+    color: #000000;
     display: flex;
     justify-content: space-between;
     margin: 10px;
@@ -16,12 +17,14 @@ body{
     font-size: 30px;
     margin-right: 30px ;
     overflow: hidden;
-    margin-left: 0;
+    margin-left: 0px;
+    margin-right: 30px;
 }
 
 .item{
     text-decoration: none;
-    color: #009eff;
+    color: #000000;
+    margin-top: 5px;
 }
 
 .logo{
@@ -38,6 +41,10 @@ body{
     background-color: #009eff;
     width: 0;
     transition: 1s;
+}
+
+a:hover>.souligne{
+    width: 100%;
 }
 
 .img_debut_page {
@@ -94,27 +101,12 @@ figure {
     margin-bottom: 50px;
 }
 
-.image_CA {
-    width: 850px;
-    height: 350px;
-}
-
-.image_taux_croissance {
-    width: 850px;
-    height: 300px;
-}
-
 figcaption {
     color: #000000;
     text-align: left;
     font-size: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
-}
-
-.image_Capitaux {
-    width: 1000px;
-    height: 500px;
 }
 
 footer{
@@ -125,4 +117,49 @@ footer{
     height:auto;
     text-align: center;
     color: #505050;
+}
+
+.grid{
+    display:grid; /* le fameux */
+    grid-template-columns:50% 50%; /* 3 colonnes de largeur différente */
+    grid-template-rows:50% 50%; /* 2 rangées */
+    grid-gap:12px; /* gouttière   */
+    gap:12px; /* gouttière (mettre les deux lignes)*/
+    padding:0; 
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-gap: 50px;
+  }
+  
+.grid>li{
+    padding:12px;
+    margin:0px;
+    background: white;
+    margin:0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    vertical-align: middle;
+}
+
+footer{
+    background:#505050;
+    width:100%;
+    height:auto;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    margin-top: 50px;
+    margin-bottom: -15px;
+    padding: 2px;
+}
+
+.image{
+    width: 800px;
+    height: 400px;
 }
