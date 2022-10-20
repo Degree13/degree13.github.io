@@ -10,9 +10,11 @@ body{
 
 
 .menu{
+    margin-right: auto;
+    margin-left: auto;
     color: #009eff;
-    width : 97.7vw;
-    display: flex;
+    width : 90vw;
+    display: inline-flex;
     justify-content: space-around;
     border: 2px;
     font-size: 30px;
@@ -23,6 +25,11 @@ body{
     z-index: 500;
     border-radius: 0px 0px 25px 25px;
     box-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
+}
+
+.container-menu{
+    display:flex;
+    justify-content: center;
 }
 
 .item{
@@ -43,6 +50,7 @@ body{
     border-radius: 25px 25px 25px 25px;
     width:50px;
     height:50px;
+    color:black;
 }
 
 .souligne{
@@ -146,18 +154,6 @@ figcaption {
     filter: drop-shadow(0 0 0.75rem gray);
 }
 
-footer{
-    background:#505050;
-    width:100%;
-    height:auto;
-    text-align: center;
-    color: white;
-    bottom: 0;
-    margin-top: 50px;
-    margin-bottom: -15px;
-    padding: 2px;
-}
-
 .lire_suite{
     color: #009eff;
     background: white ;
@@ -215,3 +211,47 @@ footer{
     filter: drop-shadow(0 0 0.75rem gray);
 }
 
+footer {
+    background-color: #747474;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:white;
+    padding-left:30px;
+    border-top-color:#bbb;
+    opacity:1;
+  }
+
+  footer hr.small {
+    margin:20px 0
+  }
+  footer h6 {
+    color:rgb(255, 254, 254);
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+  }
+
+  .copyright-text
+  {
+    margin:0
+  }
+  @media (max-width:991px)
+  {
+  footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px)
+  {
+  footer
+    {
+      padding-bottom:0
+    }
+  footer .copyright-text,footer
+    {
+      text-align:center
+    }
+  }
