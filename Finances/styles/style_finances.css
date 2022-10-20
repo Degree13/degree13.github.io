@@ -73,7 +73,7 @@ a:hover>.souligne{
 }
 
 .parallax{
-    background-image: url("../images/image_1.jpg");
+    background-image: url("../images/image_debut_article.jpg");
     min-height: 91vh;
     background-attachment: fixed;
     background-position: center;
