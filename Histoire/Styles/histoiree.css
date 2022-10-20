@@ -1,10 +1,12 @@
- 
-body {
-    margin: 0;
-    padding: 30px 0;
-    font-family: 'Roboto', sans-serif;
-    background: #F1F2F6;
- }
+@font-face{
+  font-family: '3ds';
+  src: url('3ds Regular.ttf');
+}
+
+body{
+  font-family: "3ds", Arial , sans-serif;
+  margin: 0;
+}
  
  h1 {
     font-size: 80px;
@@ -57,7 +59,7 @@ body {
     border: 2px solid #F5F7FA;
     background: #4DD0E1;
     margin-top: 10px;
-    z-index: 9999
+    z-index: 1000;
  }
  .timeline-content {
     width: 80%;
@@ -84,6 +86,7 @@ body {
     .timeline-container:before {
        left: 8px;
        width: 2px;
+       z-index: 500px;
     }
     .timeline-block {
        width: 100%;
@@ -158,6 +161,7 @@ footer .copyright-text,footer
   z-index: 500;
   border-radius: 0px 0px 25px 25px;
   box-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
+  z-index: 1500;
 }
 
 
@@ -206,7 +210,7 @@ a:hover>.souligne{
     background-image: url("../index.jpg");
   
     /* Set a specific height */
-    min-height: 91vh;
+    min-height: 100vh;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
