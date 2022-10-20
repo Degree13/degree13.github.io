@@ -48,7 +48,7 @@ a:hover>.souligne{
 
 .parallax{
     /* The image used */
-    background-image: url("../images/turbineWallpaper.jpg");
+    background-image: url("../images/image-page-principale-valeurs.jpg");
   
     /* Set a specific height */
     min-height: 91vh;
@@ -76,24 +76,6 @@ a:hover>.souligne{
     display:block;
 }
 
-.grid{
-    display:grid;
-    grid-template-columns: 70% 30%;
-    margin:30px;
-    box-shadow: 4px 4px 8px gray;
-    border-radius: 25px;
-    row-gap: 30px;
-}
-
-.grid2{
-    display:grid;
-    grid-template-columns: 30% 70%;
-    margin:30px;
-    box-shadow: 4px 4px 8px gray;
-    border-radius: 25px;
-    row-gap: 30px;
-}
-
 .item{
     margin-right:30px;
     margin-left:30px;
@@ -109,10 +91,6 @@ a:hover>.souligne{
     text-justify: auto;
 }
 
-.images{
-    max-width: 100%;
-    border-radius: 25px;    
-}
 
 .espace{
     margin-top:30px;
@@ -135,7 +113,76 @@ a:hover>.souligne{
     margin-left:30px;
 }
 
+.texte_centrer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.sommaire_titre_niveau_1 {
+    color: #000000;
+    font-size: 25px;
+}
+
+
+.sommaire_titre_niveau_2 {
+    color: #000000;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 70px;
+}
+
+figure {
+    display: flex;
+    float: left;
+    flex-flow: column;
+    max-width: 850px;
+    max-height: 375px;
+}
+
+figcaption {
+    color: #000000;
+    text-align: left;
+    font-size: 15px;
+}
+
+.grid{
+    display:grid; /* le fameux */
+    grid-template-columns:50% 50%; /* 3 colonnes de largeur différente */
+    grid-template-rows:50% 50%; /* 2 rangées */
+    grid-gap:12px; /* gouttière   */
+    gap:12px; /* gouttière (mettre les deux lignes)*/
+    margin-right: 5%;
+  }
+  
+.grid>li{
+    background: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    vertical-align: middle;
+}
+
+.image{
+    width: 800px;
+    height: 400px;
+}
 
 
 
