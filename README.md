@@ -46,9 +46,3 @@ Autres tâches:
     <li>Rédaction et envoie des rendus : Noah</li>
     <li>README et mises à jour README : Noah</li>
 </ul>
-<br>
-<p>Ecran de Zonning :</p>
-<img src="_Communs&Divers/ZoningPageAccueil.png">
-<br>
-<p>Ecran d'accueil : Prototype</p>
-<img src="_Communs&Divers/imgPrototype.png">
