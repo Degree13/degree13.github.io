@@ -8,7 +8,6 @@ body{
     margin: 0;
 }
 
-
 .menu{
     margin-right: auto;
     margin-left: auto;
@@ -45,6 +44,8 @@ body{
     padding: 0%;
     margin-left: 4px;
     border-radius: 25px 25px 25px 25px;
+    width:50PX;
+    height: 50px;;
 }
 
 .souligne{
@@ -119,17 +120,6 @@ a:hover>.souligne{
     transform: translate(-50%, -50%);
 }
 
-.sommaire_titre_niveau_1 {
-    color: #000000;
-    font-size: 25px;
-}
-
-
-.sommaire_titre_niveau_2 {
-    color: #000000;
-    font-size: 25px;
-}
-
 h1 {
     font-size: 80px;
 }
@@ -162,13 +152,18 @@ figcaption {
     font-size: 15px;
 }
 
+li{
+    font-size: 30px;
+    margin-top: 40px;
+}
+
 .grid{
     display:grid; /* le fameux */
-    grid-template-columns:50% 50%; /* 3 colonnes de largeur différente */
+    grid-template-columns:38% 60%; /* 3 colonnes de largeur différente */
     grid-template-rows:50% 50%; /* 2 rangées */
     grid-gap:12px; /* gouttière   */
     gap:12px; /* gouttière (mettre les deux lignes)*/
-    margin-right: 5%;
+    margin-right: 5%; 
   }
   
 .grid>li{
@@ -183,7 +178,7 @@ figcaption {
 }
 
 .image{
-    width: 600px;
+    width: 500px;
     height: 300px;
 }
 
