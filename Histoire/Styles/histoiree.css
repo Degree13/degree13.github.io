@@ -13,6 +13,7 @@ body{
     text-align: center;
     white-space: nowrap;
     text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
+    font-size: 1.7em;
   }
  
  .timeline-container {
@@ -64,7 +65,7 @@ body{
  .timeline-content {
     width: 80%;
     padding: 0 15px;
-    color: rgb(103, 65, 240)
+    color: rgb(103, 65, 240);
  }
  .timeline-content h3 {
     margin-top: 5px;
@@ -81,6 +82,7 @@ body{
     line-height: 1.5em;
     word-spacing: 1px;
     color: rgb(10, 10, 10);
+    font-size:1.5em;
  }
  @media screen and (max-width: 768px) {
     .timeline-container:before {
@@ -160,7 +162,7 @@ footer .copyright-text,footer
   padding: 10px;
   background-color: white;
   position:fixed;
-  z-index: 500;
+  z-index: 1500;
   border-radius: 0px 0px 25px 25px;
   box-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
 }
@@ -197,18 +199,6 @@ footer .copyright-text,footer
 
 a:hover>.souligne{
     width: 100%;
-}
-
-.titre-article{
-    position: absolute;
-    color: white;
-    font-size: 80px;
-    white-space: nowrap;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
 }
 
 .parallax{
