@@ -27,6 +27,10 @@ body{
     box-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
 }
 
+.container-page{
+    display:block;
+}
+
 .container-menu{
     display:flex;
     justify-content: center;
@@ -65,25 +69,13 @@ a:hover>.souligne{
 }
 
 .parallax{
-    background-image: url("../Divers/campus-dassault-systeme.jpg");
+    background-image: url("../Divers/Dassault-systemes-medidata.jpg");
     min-height: 100vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-.titre-article{
-    position: absolute;
-    color: white;
-    font-size: 80px;
-    white-space: nowrap;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
-}
 
 .image_article{
     width: 100%;
@@ -108,6 +100,18 @@ a:hover>.souligne{
     font-family: Arial;
     font-size: 130px;
     white-space: nowrap;
+    text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
+}
+
+.text{
+    vertical-align: middle;
+}
+
+h3{
+    font-size: 50px;
+    color: #009eff;
+    padding-top: 4%;
+    margin: 0;
 }
 
 .texte_article{
@@ -120,13 +124,20 @@ a:hover>.souligne{
     font-size: 25px;
 }
 
-h3{
-    font-size: 50px;
-    text-align: left;
-    color: #009eff;
-    padding-top: 4%;
-    margin: 0;
-    text-align: center;
+.texte-droite{
+    font-style: italic;
+    text-align:right;
+    margin-right:10px;
+    margin-bottom: 30px;
+    text-shadow: -2px 1px 0px #74caff;
+}
+
+.texte-gauche{
+    font-style: italic;
+    text-align:left;
+    margin-left:10px;
+    margin-bottom: 30px;
+    text-shadow: -2px 1px 0px #74caff;
 }
 
 p{
@@ -147,6 +158,7 @@ figcaption {
     margin: 0 30px 15px 15px;
     width: 100%;
     height: 100%;
+    max-height: 500px;
     display: flex;
     display: inline-block;
     border-radius: 15px 15px 15px 15px;
@@ -196,10 +208,6 @@ figcaption {
     align-items: center;
 }
 
-.text{
-    vertical-align: middle;
-}
-
 .image_finance{
     margin: 0 30px 15px 15px;
     width: 750px;
@@ -220,6 +228,11 @@ footer {
     padding-left:30px;
     border-top-color:#bbb;
     opacity:1;
+    position:absolute;
+    left:0px;
+    bottom:-400%;
+    width:100%;
+    margin-left:30px;
   }
 
   footer hr.small {

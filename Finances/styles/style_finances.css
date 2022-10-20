@@ -92,7 +92,7 @@ a:hover>.souligne{
 .titre-article{
     position: absolute;
     color: white;
-    font-size: 80px;
+    font-size: 8em;
     white-space: nowrap;
     position: absolute;
     top: 55%;
@@ -130,7 +130,7 @@ a:hover>.souligne{
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 70px;
 }
 
 h2 {
