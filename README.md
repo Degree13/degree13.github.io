@@ -10,10 +10,10 @@
 </ul>
 <br>
 <p>Ecran de Zonning :</p>
-<img src="_Communs&Divers/Zoning_page_accueil.png">
+<img src="doc/Zoning_page_accueil.png">
 <br>
 <p>Ecran d'accueil : Prototype</p>
-<img src="_Communs&Divers/imgPrototype.png">
+<img src="doc/imgPrototype.png">
 <br>
 Auteurs de chaque page de notre site web :
 <ul>
