@@ -1,0 +1,246 @@
+@font-face{
+    font-family: '3ds';
+    src: url('3ds Regular.ttf');
+}
+
+body{
+    font-family: "3ds", Arial , sans-serif;
+    margin: 0;
+}
+
+.menu{
+    margin-right: auto;
+    margin-left: auto;
+    color: #009eff;
+    width : 90vw;
+    display: inline-flex;
+    justify-content: space-around;
+    border: 2px;
+    font-size: 30px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: white;
+    position:fixed;
+    z-index: 500;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
+}
+
+.container-menu{
+    display:flex;
+    justify-content: center;
+}
+
+.item{
+    text-decoration: none;
+    color: #009eff;
+    margin-top:5px;
+}
+
+.logo{
+    display: flex;
+    min-width: 80px;
+    min-height: 50px;
+    padding: 0%;
+    margin-left: 4px;
+    border-radius: 25px 25px 25px 25px;
+    width:50PX;
+    height: 50px;;
+}
+
+.souligne{
+    height: 3px;
+    background-color: #009eff;
+    width: 0;
+    transition: 1s;
+}
+
+a:hover>.souligne{
+    width: 100%;
+}
+
+.parallax{
+    /* The image used */
+    background-image: url("../images/image-page-principale-valeurs.jpg");
+  
+    /* Set a specific height */
+    min-height: 91vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.titre-article{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    white-space: nowrap;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
+}
+
+.container{
+    display:block;
+}
+
+.item{
+    margin-right:30px;
+    margin-left:30px;
+    color:black;
+    text-justify: auto;
+}
+
+.text-top{
+    font-size:15px;
+    text-align:center;
+    text-justify: auto;
+    margin-left:250px;
+    margin-right:250px;
+    color: rgb(166, 165, 165);
+}
+
+
+.contenant {
+    position: relative;
+    text-align: center;
+    color: #000000;
+    font-size: 80px;
+}
+  
+.texte_centrer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    max-width: 850px;
+    max-height: 375px;
+    justify-content:center;
+    float: left;
+}
+
+figcaption {
+    color: #000000;
+    text-align: left;
+    font-size: 15px;
+}
+
+li{
+    font-size: 30px;
+}
+
+.grid{
+    display:grid; /* le fameux */
+    grid-template-columns:40% 60%; /* 3 colonnes de largeur différente */
+    grid-template-rows:50% 50%; /* 2 rangées */
+    grid-gap:12px; /* gouttière   */
+    gap:12px; /* gouttière (mettre les deux lignes)*/
+    margin-right: 5%;
+    margin-left:5%; 
+  }
+  
+.grid>li{
+    background: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    vertical-align: middle;
+    margin:auto;
+    max-width: 1260px;
+}
+
+.image{
+    width: 500px;
+    height: 300px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    filter: drop-shadow(0 0 0.75rem rgb(111, 111, 111));
+}
+
+.sommaire_titre_niveau_1{
+    margin-left: 60px;
+}
+
+.sommaire_titre_niveau_2{
+    margin-left: 60px;
+}
+
+footer {
+    background-color: #747474;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:white;
+    padding-left:30px;
+    border-top-color:#bbb;
+    opacity:1;
+  }
+  
+  footer hr.small {
+    margin:20px 0
+  }
+  footer h6 {
+    color:rgb(255, 254, 254);
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+  }
+  
+  .copyright-text
+  {
+    margin:0
+  }
+  @media (max-width:991px)
+  {
+  footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px)
+  {
+  footer
+    {
+      padding-bottom:0
+    }
+  footer .copyright-text,footer
+    {
+      text-align:center
+    }
+  }
+

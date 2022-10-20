@@ -1,0 +1,270 @@
+@font-face{
+    font-family: '3ds';
+    src: url('3ds Regular.ttf');
+}
+
+body{
+    font-family: "3ds", Arial , sans-serif;
+    margin: 0;
+}
+
+
+.menu{
+    margin-right: auto;
+    margin-left: auto;
+    color: #009eff;
+    width : 90vw;
+    display: inline-flex;
+    justify-content: space-around;
+    border: 2px;
+    font-size: 30px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: white;
+    position:fixed;
+    z-index: 500;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
+}
+
+.container-page{
+    display:block;
+}
+
+.container-menu{
+    display:flex;
+    justify-content: center;
+}
+
+.item{
+    text-decoration: none;
+    margin-top:5px;
+    margin-right:30px;
+    margin-left:30px;
+    color:black;
+    text-justify: auto;
+}
+
+.logo{
+    display: flex;
+    min-width: 80px;
+    min-height: 50px;
+    padding: 0%;
+    margin-left: 4px;
+    border-radius: 25px 25px 25px 25px;
+    width:50px;
+    height:50px;
+    color:black;
+}
+
+.souligne{
+    height: 3px;
+    background-color: #009eff;
+    width: 0;
+    transition: 1s;
+}
+
+a:hover>.souligne{
+    width: 100%;
+}
+
+.parallax{
+    background-image: url("../Divers/Dassault-systemes-medidata.jpg");
+    min-height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.image_article{
+    width: 100%;
+    height: 50%;
+    filter: brightness(70%);
+    margin-bottom: -100px;
+}
+
+.contenant_premier_page{
+    position: relative;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.titre_article{
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Arial;
+    font-size: 130px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
+}
+
+.text{
+    vertical-align: middle;
+}
+
+h3{
+    font-size: 50px;
+    color: #009eff;
+    padding-top: 4%;
+    margin: 0;
+}
+
+.texte_article{
+    position: absolute;
+    top : 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.texte-droite{
+    font-style: italic;
+    text-align:right;
+    margin-right:10px;
+    margin-bottom: 30px;
+    text-shadow: -2px 1px 0px #74caff;
+}
+
+.texte-gauche{
+    font-style: italic;
+    text-align:left;
+    margin-left:10px;
+    margin-bottom: 30px;
+    text-shadow: -2px 1px 0px #74caff;
+}
+
+p{
+    font-size: 25px;
+    text-align: justify;
+    margin: 0;
+}
+
+figcaption {
+    color: #000000;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.image{
+    margin: 0 30px 15px 15px;
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    display: flex;
+    display: inline-block;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    filter: drop-shadow(0 0 0.75rem gray);
+}
+
+.lire_suite{
+    color: #009eff;
+    background: white ;
+    border: 1px solid transparent;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    padding: 4px;
+    justify-content: center;
+    display: flex;
+}
+
+.lire_suite:hover{
+    background-color:#009eff ;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.grid{
+    display:grid; /* le fameux */
+    grid-template-columns:50% 50%; /* 3 colonnes de largeur différente */
+    grid-template-rows:50% 50%; /* 2 rangées */
+    grid-gap:12px; /* gouttière   */
+    gap:12px; /* gouttière (mettre les deux lignes)*/
+    padding:0; 
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    grid-gap: 50px;
+  }
+  
+.grid>li{
+    padding:12px;
+    margin:0;
+    background: white;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_finance{
+    margin: 0 30px 15px 15px;
+    width: 750px;
+    height: 325px;
+    display: flex;
+    display: inline-block;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    filter: drop-shadow(0 0 0.75rem gray);
+}
+
+footer {
+    background-color: #747474;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:white;
+    padding-left:30px;
+    border-top-color:#bbb;
+    opacity:1;
+    position:absolute;
+    left:0px;
+    bottom:-400%;
+    width:100%;
+    margin-left:30px;
+  }
+
+  footer hr.small {
+    margin:20px 0
+  }
+  footer h6 {
+    color:rgb(255, 254, 254);
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+  }
+
+  .copyright-text
+  {
+    margin:0
+  }
+  @media (max-width:991px)
+  {
+  footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px)
+  {
+  footer
+    {
+      padding-bottom:0
+    }
+  footer .copyright-text,footer
+    {
+      text-align:center
+    }
+  }
