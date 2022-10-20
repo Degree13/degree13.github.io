@@ -1,10 +1,11 @@
 @font-face {
     font-family: '3ds';
-    src: url('3ds Condensed Light.ttf');
+    src: url('3ds Regular.ttf');
 }
 
 body{
     font-family: "3ds", Arial, sans-serif;
+    margin:0;
 }
 
 ol{
@@ -13,9 +14,11 @@ ol{
 }
 
 .menu{
+    margin-right: auto;
+    margin-left: auto;
     color: #009eff;
-    width : 97.7vw;
-    display: flex;
+    width : 90vw;
+    display: inline-flex;
     justify-content: space-around;
     border: 2px;
     font-size: 30px;
@@ -31,7 +34,7 @@ ol{
 .container-menu{
     display:flex;
     justify-content: center;
-  }
+}
 
 .item{
     text-decoration: none;
@@ -79,7 +82,7 @@ a:hover>.souligne{
 
 .parallax{
     background-image: url("../images/image_debut_article.jpg");
-    min-height: 91vh;
+    min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -10,14 +10,26 @@ body{
 
 
 .menu{
+    margin-right: auto;
+    margin-left: auto;
     color: #009eff;
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
+    width : 90vw;
+    display: inline-flex;
+    justify-content: space-around;
     border: 2px;
     font-size: 30px;
     overflow: hidden;
-    margin-right: 30px;
+    padding: 10px;
+    background-color: white;
+    position:fixed;
+    z-index: 500;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
+}
+
+.container-menu{
+    display:flex;
+    justify-content: center;
 }
 
 .item{

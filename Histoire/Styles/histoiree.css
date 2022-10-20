@@ -148,9 +148,11 @@ footer .copyright-text,footer
 }
 
 .menu{
+  margin-right: auto;
+  margin-left: auto;
   color: #009eff;
-  width : 97.7vw;
-  display: flex;
+  width : 90vw;
+  display: inline-flex;
   justify-content: space-around;
   border: 2px;
   font-size: 30px;
@@ -161,7 +163,11 @@ footer .copyright-text,footer
   z-index: 500;
   border-radius: 0px 0px 25px 25px;
   box-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
-  z-index: 1500;
+}
+
+.container-menu{
+  display:flex;
+  justify-content: center;
 }
 
 
