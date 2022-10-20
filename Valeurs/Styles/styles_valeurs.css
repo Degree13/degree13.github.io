@@ -126,24 +126,26 @@ h1 {
 
 h2 {
     font-size: 50px;
+    margin-top: 40px;
 }
 
 h3 {
     font-size: 30px;
+    margin-top: 40px;
 }
 
 p {
     font-size: 25px;
     text-align: justify;
-    margin-right: 70px;
 }
 
 figure {
     display: flex;
-    float: left;
     flex-flow: column;
     max-width: 850px;
     max-height: 375px;
+    justify-content:center;
+    float: left;
 }
 
 figcaption {
@@ -154,16 +156,16 @@ figcaption {
 
 li{
     font-size: 30px;
-    margin-top: 40px;
 }
 
 .grid{
     display:grid; /* le fameux */
-    grid-template-columns:38% 60%; /* 3 colonnes de largeur différente */
+    grid-template-columns:40% 60%; /* 3 colonnes de largeur différente */
     grid-template-rows:50% 50%; /* 2 rangées */
     grid-gap:12px; /* gouttière   */
     gap:12px; /* gouttière (mettre les deux lignes)*/
-    margin-right: 5%; 
+    margin-right: 5%;
+    margin-left:5%; 
   }
   
 .grid>li{
@@ -175,13 +177,70 @@ li{
 
 .text{
     vertical-align: middle;
+    margin:auto;
+    max-width: 1260px;
 }
 
 .image{
     width: 500px;
     height: 300px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    filter: drop-shadow(0 0 0.75rem rgb(111, 111, 111));
 }
 
+.sommaire_titre_niveau_1{
+    margin-left: 60px;
+}
 
+.sommaire_titre_niveau_2{
+    margin-left: 60px;
+}
 
+footer {
+    background-color: #747474;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:white;
+    padding-left:30px;
+    border-top-color:#bbb;
+    opacity:1;
+  }
+  
+  footer hr.small {
+    margin:20px 0
+  }
+  footer h6 {
+    color:rgb(255, 254, 254);
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+  }
+  
+  .copyright-text
+  {
+    margin:0
+  }
+  @media (max-width:991px)
+  {
+  footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px)
+  {
+  footer
+    {
+      padding-bottom:0
+    }
+  footer .copyright-text,footer
+    {
+      text-align:center
+    }
+  }
 
