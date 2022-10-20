@@ -8,24 +8,29 @@ body{
     margin: 0;
 }
 
-
 .menu{
     color: #009eff;
+    width : 97.7vw;
     display: flex;
-    justify-content: space-between;
-    margin: 10px;
+    justify-content: space-around;
     border: 2px;
     font-size: 30px;
-    margin-right: 30px ;
     overflow: hidden;
-    margin-left: 0;
-    margin-left: 0;
-    margin-right: 30px;
+    padding: 10px;
+    background-color: white;
+    position:fixed;
+    z-index: 500;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
 }
 
 .item{
     text-decoration: none;
-    color: #009eff;
+    margin-top:5px;
+    margin-right:30px;
+    margin-left:30px;
+    color:black;
+    text-justify: auto;
 }
 
 .logo{
@@ -35,6 +40,8 @@ body{
     padding: 0%;
     margin-left: 4px;
     border-radius: 25px 25px 25px 25px;
+    width:50px;
+    height:50px;
 }
 
 .souligne{
@@ -46,6 +53,27 @@ body{
 
 a:hover>.souligne{
     width: 100%;
+}
+
+.parallax{
+    background-image: url("../Divers/campus-dassault-systeme.jpg");
+    min-height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.titre-article{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    white-space: nowrap;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
 }
 
 .image_article{
