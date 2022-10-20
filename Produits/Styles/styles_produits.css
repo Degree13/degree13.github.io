@@ -119,6 +119,17 @@ a:hover>.souligne{
     font-size:15px;
     text-align:center;
     text-justify: auto;
+    margin:120px;
+    margin-left:250px;
+    margin-right:250px;
+    color: rgb(166, 165, 165);
+}
+
+.text-bottom{
+    font-size:15px;
+    text-align:center;
+    text-justify: auto;
+    margin:120px;
     margin-left:250px;
     margin-right:250px;
     color: rgb(166, 165, 165);
@@ -131,6 +142,50 @@ a:hover>.souligne{
     margin-right:30px;
     margin-left:30px;
 }
+footer {
+    background-color: #747474;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:white;
+    padding-left:30px;
+    border-top-color:#bbb;
+    opacity:1;
+  }
+  
+  footer hr.small {
+    margin:20px 0
+  }
+  footer h6 {
+    color:rgb(255, 254, 254);
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+  }
+  
+  .copyright-text
+  {
+    margin:0
+  }
+  @media (max-width:991px)
+  {
+  footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px)
+  {
+  footer
+    {
+      padding-bottom:0
+    }
+  footer .copyright-text,footer
+    {
+      text-align:center
+    }
+  }
 
 
 
