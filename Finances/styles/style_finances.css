@@ -7,6 +7,11 @@ body{
     font-family: "3ds", Arial, sans-serif;
 }
 
+ol{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
 .menu{
     color: #000000;
     display: flex;
@@ -58,7 +63,32 @@ a:hover>.souligne{
     color: #000000;
     font-size: 80px;
 }
-  
+
+.parallax{
+    background-image: url("../images/image_1.jpg");
+    min-height: 91vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titre-article{
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    white-space: nowrap;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
+}
+
+.container{
+    display:block;
+}
+
 .texte_centrer {
     position: absolute;
     top: 50%;
@@ -66,15 +96,22 @@ a:hover>.souligne{
     transform: translate(-50%, -50%);
 }
 
+.sommaire{
+    font-size: 25px;
+}
+
 .sommaire_titre_niveau_1 {
     color: #000000;
-    font-size: 25px;
+    font-size: 80px;
+    list-style-type:upper-roman;
+    margin-left: 6%;
 }
 
 
 .sommaire_titre_niveau_2 {
     color: #000000;
-    font-size: 25px;
+    font-size: 50px;
+    margin-left: 6%;
 }
 
 h1 {
@@ -119,9 +156,6 @@ footer{
     display:grid; /* le fameux */
     grid-template-columns:50% 50%; /* 3 colonnes de largeur différente */
     grid-template-rows:50% 50%; /* 2 rangées */
-    grid-gap:12px; /* gouttière   */
-    gap:12px; /* gouttière (mettre les deux lignes)*/
-    margin-right: 5%;
   }
   
 .grid>li{
@@ -129,6 +163,12 @@ footer{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.text_div {
+    vertical-align: middle;
+    margin-left: 93px;
+    margin-right: 50px;
 }
 
 .text{
@@ -146,6 +186,6 @@ footer{
 }
 
 .image{
-    width: 800px;
-    height: 400px;
+    width: 650px;
+    height: auto;
 }
