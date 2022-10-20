@@ -83,19 +83,6 @@ a:hover>.souligne{
     text-justify: auto;
 }
 
-.item2{
-    text-align: right;
-    margin-right:30px;
-    margin-left:30px;
-    color:black;
-    text-justify: auto;
-}
-
-
-.espace{
-    margin-top:30px;
-}
-
 .text-top{
     font-size:15px;
     text-align:center;
@@ -105,14 +92,14 @@ a:hover>.souligne{
     color: rgb(166, 165, 165);
 }
 
-.text-articles{
-    font-size:20px;
-    color:rgb(166, 165, 165);
-    text-justify: auto;
-    margin-right:30px;
-    margin-left:30px;
-}
 
+.contenant {
+    position: relative;
+    text-align: center;
+    color: #000000;
+    font-size: 80px;
+}
+  
 .texte_centrer {
     position: absolute;
     top: 50%;
@@ -137,6 +124,10 @@ h1 {
 
 h2 {
     font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 p {
@@ -180,8 +171,8 @@ figcaption {
 }
 
 .image{
-    width: 800px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
 }
 
 
