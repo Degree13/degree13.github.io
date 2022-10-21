@@ -9,11 +9,10 @@ body{
 }
  
  h1 {
-    font-size: 80px;
     text-align: center;
     white-space: nowrap;
     text-shadow: 2px 2px 4px rgb(35, 35, 35), 4px 4px 8px rgb(255, 255, 255);
-    font-size: 1.7em;
+    font-size: 2.3em;
   }
  
  .timeline-container {
