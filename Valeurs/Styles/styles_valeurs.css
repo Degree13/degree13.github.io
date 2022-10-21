@@ -160,7 +160,7 @@ li{
 
 .grid{
     display:grid; /* le fameux */
-    grid-template-columns:40% 60%; /* 3 colonnes de largeur différente */
+    grid-template-columns:50% 50%; /* 3 colonnes de largeur différente */
     grid-template-rows:50% 50%; /* 2 rangées */
     grid-gap:12px; /* gouttière   */
     gap:12px; /* gouttière (mettre les deux lignes)*/
