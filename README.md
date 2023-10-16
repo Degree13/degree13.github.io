@@ -7,6 +7,7 @@
     <li>Mame Diarra Thiam</li>
     <li>Manon Grandmougin</li>
     <li>Noah Nicolas / Référant / noah.nicolas@edu.univ-fcomte.fr</li>
+    Click [here](quora.com/profile/Ashish-Kulkarni-100) to go to my Quora profile. 
 </ul>
 <br>
 <p>Ecran de Zonning :</p>
@@ -20,7 +21,7 @@ Auteurs de chaque page de notre site web :
     <li>Accueil : Mame Diarra Thiam (Page principale, mise en forme), Noah Nicolas (retouches, corrections de bugs et ajout d'une compatibilité partielle avec Chrome et Edge)</li>
     <li>Histoire : Manon Grandmougin</li>
     <li>Finances : Arthur Keusch</li>
-    <li>Produits : Noah Nicolas</li>
+    <li>[Produits : Noah Nicolas](https://degree13.github.io/Produits/produits.html)</li>
     <li>Valeurs : Mame Diarra Thiam</li>
 </ul>
 Autres tâches:
