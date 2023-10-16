@@ -1,4 +1,6 @@
 # degree13.github.io
+<a href="https://degree13.github.io/index.html">Le site web ici</a>  
+
 *S1C - Groupe 13*
 <br>
 <p>Membres :</p>
@@ -7,7 +9,6 @@
     <li>Mame Diarra Thiam</li>
     <li>Manon Grandmougin</li>
     <li>Noah Nicolas / Référant / noah.nicolas@edu.univ-fcomte.fr</li>
-    Click [here](quora.com/profile/Ashish-Kulkarni-100) to go to my Quora profile. 
 </ul>
 <br>
 <p>Ecran de Zonning :</p>
@@ -18,11 +19,11 @@
 <br>
 Auteurs de chaque page de notre site web :
 <ul>
-    <li>Accueil : Mame Diarra Thiam (Page principale, mise en forme), Noah Nicolas (retouches, corrections de bugs et ajout d'une compatibilité partielle avec Chrome et Edge)</li>
-    <li>Histoire : Manon Grandmougin</li>
-    <li>Finances : Arthur Keusch</li>
-    <li>[Produits : Noah Nicolas](https://degree13.github.io/Produits/produits.html)</li>
-    <li>Valeurs : Mame Diarra Thiam</li>
+    <li><a href="https://degree13.github.io/index.html">Accueil : Mame Diarra Thiam (Page principale, mise en forme), Noah Nicolas (retouches, corrections de bugs et ajout d'une compatibilité partielle avec Chrome et Edge)</a></li>
+    <li><a href="https://degree13.github.io/Histoire/histoire.html">Histoire : Manon Grandmougin</a></li>
+    <li><a href="https://degree13.github.io/Finances/finances.html">Finances : Arthur Keusch</a></li>
+    <li><a href="https://degree13.github.io/Produits/produits.html">Produits : Noah Nicolas</a></li>
+    <li><a href="https://degree13.github.io/Valeurs/valeurs.html">Valeurs : Mame Diarra Thiam</a></li>
 </ul>
 Autres tâches:
 <ul>
